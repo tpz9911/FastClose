@@ -2,11 +2,13 @@
 
 ### 【简介 Intro】
 
-**FastClose** 用于向目标程序发送正常退出信号，快速关闭目标程序（不用在程序里面去找退出选项）。  
+**FastClose** 用于向目标程序发送正常退出信号，快速关闭目标程序（不用在程序里面去找退出选项）。
+
 右键弹出设置菜单。  
 优先查找进程名称（程序的进程名称通常是其主程序名，不含扩展名），如果没有填写进程名称，将匹配程序标题。
 
-It is used to send a graceful exit signal to the target program to close it quickly, without needing to find the exit option within the application.  
+It is used to send a graceful exit signal to the target program to close it quickly, without needing to find the exit option within the application.
+
 Right-click to open the settings menu.  
 It prioritizes matching by process name (which is typically the main executable name without the file extension). If no process name is specified, it matches by the program title.  
 
